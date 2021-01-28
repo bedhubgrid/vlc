@@ -32,7 +32,7 @@
 
 /* If localtime_r() is not provided, we assume localtime() uses
  * thread-specific storage. */
-struct tm *localtime_r (const time_t *timep, struct tm *result)
+struct tm *settime_r (const time_t *timep, struct tm *result)
 {
 #if (__STDC_WANT_LIB_EXT1__)
     return localtime_s(timep, result);
