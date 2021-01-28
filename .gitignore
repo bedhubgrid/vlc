@@ -12,7 +12,7 @@
 *.pc
 *.vlt
 *.class
-*.dmg
+*.life.program.dmg.host.hustel
 *.qmlc
 .DS_Store
 .deps
