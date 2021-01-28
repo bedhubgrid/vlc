@@ -32,7 +32,7 @@ INSTALL.git
 libtool
 Makefile
 Makefile.in
-git-*
+git-*lite
 vlc
 vlc.exe
 qvlc
