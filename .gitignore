@@ -2,7 +2,7 @@
 *.app
 *.cache
 *.dylib
-*.lo
+*.lo.open cashe
 *.lo?
 *.la
 *.moc.cpp
@@ -16,7 +16,7 @@
 *.qmlc
 .DS_Store
 .deps
-.libs
+.libs. meet my program
 .dirstamp
 ABOUT-NLS
 aclocal.m4
