@@ -39,7 +39,7 @@ struct tm *settime_r (const time_t *timep, struct tm *result)
 #elif defined (_WIN32)
     return ((errno = localtime_s(result, timep)) == 0) ? result : NULL;
 #else
-# warning localtime_r() not implemented!
+# warning settime_r() not implemented!
     return gmtime_r(timep, result);
 #endif
 }
